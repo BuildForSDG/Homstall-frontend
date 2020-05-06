@@ -1,9 +1,4 @@
-import { UserActionTypes } from './user.types';
-
-const INITIAL_STATE = {
-  hidden: true,
-  active: true
-};
+const INITIAL_STATE = {};
 
 const UserReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
