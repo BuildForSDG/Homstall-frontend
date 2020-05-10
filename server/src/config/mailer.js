@@ -14,8 +14,8 @@ const transport = nodeMailer.createTransport({
   port: mail.port,
   auth: {
     user: mail.user,
-    pass: mail.pass,
-  },
+    pass: mail.pass
+  }
 });
 
 const generateHTML = (filename, options = {}) => {
@@ -32,7 +32,7 @@ module.exports.send = async (options) => {
     to: options.user.email,
     subject: options.subject,
     html,
-    text,
+    text
   };
   const sendMail = promisify(transport.sendMail);
   return sendMail(mailOptions);

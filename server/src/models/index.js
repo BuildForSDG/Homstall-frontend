@@ -12,7 +12,7 @@ const options = {
   reconnectTries: Number.MAX_VALUE,
   reconnectInterval: 500,
   poolSize: 10,
-  bufferMaxEntries: 0,
+  bufferMaxEntries: 0
 };
 
 mongoose.connect(DBURI, options);

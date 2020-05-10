@@ -7,7 +7,7 @@ const userSchema = new mongoose.Schema({
   name: { type: String, required: true },
   email: { type: String, required: true },
   hash: String,
-  salt: String,
+  salt: String
 
 }, { timestamps: true });
 
@@ -27,11 +27,11 @@ userSchema.methods.generateJWT = function generate() {
     {
       _id: this._id,
       name: this.name,
-      email: this.email,
+      email: this.email
     },
     jwtsecret,
     {
-      expiresIn: '24h',
+      expiresIn: '24h'
     },
   );
 };

@@ -6,11 +6,10 @@ const logger = new winston.Logger({
       level: 'debug',
       handleExceptions: true,
       json: false,
-      colorize: true,
-    }),
+      colorize: true
+    })
   ],
-  exitOnError: false,
+  exitOnError: false
 });
 
 module.exports = logger;
-

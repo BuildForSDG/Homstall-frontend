@@ -13,4 +13,3 @@ module.exports.register = async (req, res) => {
   const token = user.generateJWT();
   sendJSONResponse(res, 200, { token, user }, req.method, 'Created New User!');
 };
-

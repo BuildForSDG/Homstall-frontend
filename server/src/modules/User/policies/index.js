@@ -5,6 +5,6 @@ module.exports.register = {
     email: joi.string().email().required(),
     name: joi.string().required(),
     password: joi.string().alphanum().min(3).max(30)
-      .required(),
-  },
+      .required()
+  }
 };
