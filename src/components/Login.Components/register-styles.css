@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+body{
+    font-family: 'Bellefair',
+    serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.form__div{
+     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+     background-color:#f1f1f1;
+     padding: 1.5rem;
+     margin: 1.5rem 15rem;
+}
+
+.form__input label{
+    width: 100%;
+    margin: 0 auto;
+    font-weight: 300;
+font-size: smaller;
+}
+
+.form__input input {
+ 
+ border-color: #f1f1f1;
+ border: none;
+}
+
+.form__input-div input{
+ width: 100%;
+ 
+}
+
+.button__sign-in{
+    margin:2rem;
+    background: #3A6B5C;
+    padding:0.5rem 2rem;
+    color:#fff;
+    font-size: smaller;
+    border-radius: 30px;
+}
+
+.button__facebook{
+    margin: 0 15rem;
+    background-color: #27477D;
+     padding:0.3rem 1rem;
+     color: white;
+     font-size: smaller;
+     
+}
+
+.disclaimer__text span, .disclaimer__text{
+    font-size: smaller;
+font-weight: 300;
+margin-top: 2rem;
+}
+
+.disclaimer__text span{
+    color:#3A6B5C;
+}
+
+.top-info__div{
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.top-info__header{
+    font-size: small;
+}
+
+.top-info__paragraph{
+    font-size: smaller;
+}
