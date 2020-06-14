@@ -15,7 +15,7 @@ export default function Form (){
             <Col>
               <div class="form__input-div">
                 <label>Email</label>
-                <input type="text" />
+                <input type="email" />
               </div>
             </Col>
           </Row>
@@ -43,7 +43,7 @@ export default function Form (){
             <Col>
               <div class="form__input-div">
                 <label>State</label>
-                <input type="text" />
+                <input type="text" autoComplete="off"/>
               </div>
             </Col>
           </Row>
@@ -51,13 +51,13 @@ export default function Form (){
             <Col>
               <div class="form__input-div">
                 <label>Password</label>
-                <input type="password" />
+                <input type="password" autoComplete="off" />
               </div>
             </Col>
             <Col>
               <div class="form__input-div">
                 <label>Confirm Password</label>
-                <input type="password" />
+                <input type="password"  autoComplete="off"/>
               </div>
             </Col>
           </Row>
