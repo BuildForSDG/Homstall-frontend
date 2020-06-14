@@ -1,4 +1,5 @@
 import React from "react";
+import facebook from './facebook.png'
 
 export default function Buttons (props){
     return (
@@ -6,9 +7,7 @@ export default function Buttons (props){
         <button class="button__sign-in">{props.buttonText}</button>
         <hr />
         <button class="button__facebook">
-          {/* <img src="facebook.png" alt="facebook-icon"> */}
-            {props.facebookText}
-          {/* </img> */}
+          <img src={facebook}></img>{props.facebookText}
         </button>
         <p class="disclaimer__text">
           {props.disclaimerText}

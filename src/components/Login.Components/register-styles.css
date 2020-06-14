@@ -5,6 +5,7 @@ body{
     serif;
     font-size: 1rem;
     box-sizing: border-box;
+    background-color: #E5E5E5;
 }
 
 .form__div{
@@ -31,7 +32,20 @@ font-size: smaller;
  width: 100%;
  
 }
+.form__check_box{
+    width: 100%;
+    display: inline-flex;
 
+}
+.form__check_box label{
+    padding-left: 0.4rem;
+}
+
+.form__forget_password{
+    display: flex;
+    justify-content: end;
+    color: #3A6B5C;
+}
 .button__sign-in{
     margin:2rem;
     background: #3A6B5C;

@@ -62,6 +62,10 @@ font-size: smaller;
      
 }
 
+.button__facebook img{
+    padding-right: 0.5rem;
+}
+
 .disclaimer__text{
 font-size: smaller;
 font-weight: 300;

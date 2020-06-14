@@ -26,6 +26,19 @@ export default function LogInForm() {
             </div>
           </Col>
         </Row>
+        <Row>
+          <Col>
+            <div class="form__check_box">
+              <input type="checkbox" value="Remeber me" name="remeber me" id="remember"/>
+              <label for="remeber">Remeber me</label>
+            </div>
+          </Col>
+          <Col>
+            <div class="form__forget_password">
+              <span>Forgot Password?</span>
+            </div>
+          </Col>
+        </Row>
       </Container>
       <div>
         <Buttons
